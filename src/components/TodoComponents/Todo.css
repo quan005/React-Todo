@@ -1,0 +1,31 @@
+.app-container {
+    max-width: 500px ;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+  }
+
+.list-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.list-container ul {
+    list-style:none ;
+}
+
+.list-container ul li {
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: black;
+    color: #f7444e;
+}
+
